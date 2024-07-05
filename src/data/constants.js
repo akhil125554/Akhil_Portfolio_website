@@ -132,11 +132,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
       },
-      {
-        name: "Prometheus",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      },
+
     ],
   },
   {
@@ -230,13 +226,10 @@ export const experiences = [
     date: "May 2024 - July 2024",
     desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Machine Learning",
+      "Python",
+      "APIs",
+      "NLP",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
@@ -276,7 +269,7 @@ export const education = [
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
+    school: ", Dankuni",
     date: "Apr 2019 - Apr 2025",
     grade: "88.2%",
     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
@@ -285,11 +278,11 @@ export const education = [
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
+    school: "NIRMALA CONCEPT SCHOOL",
     date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    grade: "A",
+    desc: "I completed my class 10 education at Nirmala Concept School,Ongole, where I studied Science with Computer Application.",
+    degree: "10th Andhra State Board",
   },
 ];
 
