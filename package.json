@@ -1,7 +1,8 @@
-{"homepage": "akhil125554.github.io/Akhil_Portfolio_website",
+{"homepage": "https://akhil125554.github.io/Akhil_Portfolio_website",
   "name": "3d-portfolio-website",
   "version": "0.1.0",
   "private": true,
+  
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "@emotion/react": "^11.11.3",
