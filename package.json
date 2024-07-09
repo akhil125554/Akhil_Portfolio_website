@@ -1,4 +1,4 @@
-{
+{"homepage": "akhil125554.github.io/Akhil_Portfolio_website",
   "name": "3d-portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.3",
     "framer-motion": "^11.0.5",
+    "gh-pages": "^6.1.1",
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -34,7 +35,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,5 +56,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    
   }
 }
+
