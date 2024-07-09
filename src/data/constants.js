@@ -1,3 +1,10 @@
+
+import s from "../images/scora_img.png"
+import t from "../images/colab_img.png"
+import u from "../images/syncor_img.png"
+import v from "../images/clg_logo.png"
+import y from "../images/n_img.png"
+import z from "../images/nirm_logo.png"
 export const Bio = {
   name: "ALLA AKHIL CHOWDARY",
   roles: [
@@ -108,20 +115,8 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Nginx",
-        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      },
+     
+    
       {
         name: "Kubernetes",
         image:
@@ -175,8 +170,7 @@ export const skills = [
       },
       {
         name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+        image:t,
       },
       {
         name: "Sk Learn Kit",
@@ -203,11 +197,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
     ],
   },
 ];
@@ -215,11 +204,13 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: s,
     role: "Machine Learning Intern",
     company: "Scora Labs",
     date: "May 2024 - July 2024",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc:"Enhanced recruitment processes by developing an automated code evaluation system using a transformer-based model. The system provides accurate scores and detailed feedback, improving efficiency by 50% and user satisfaction by 30%. Successfully deployed to educational institutions and companies for streamlined recruitment."
+
+,
     skills: [
       "Machine Learning",
       "Python",
@@ -230,22 +221,14 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Internship",
-    company: "Sunsoft",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: u,
+    role: "Software Engineer",
+    company: "Sunsoft Solutions",
+    date: "Currently working",
+    desc: "I am currently working on a bail bonds project, using Playwright for web scraping.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "Web scraping",
+      "Playwright"
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
@@ -254,7 +237,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img:v,
     school: "GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING",
     date: "DEC 2021 - MAR 2025",
     grade: "9.2 CGPA",
@@ -263,8 +246,8 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: ", Dankuni",
+    img: y,
+    school: "Narayana Junior College",
     date: "Jun 2019 - Apr 2021",
     grade: "97.3%",
     desc: "I completed my class 12 high school education at Narayana Junior College, Ongole, where I studied MPC.",
@@ -272,7 +255,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: z,
     school: "NIRMALA CONCEPT SCHOOL",
     date: "Jun 2018 - Jun 2019",
     grade: "10 GPA",
